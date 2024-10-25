@@ -1,0 +1,190 @@
+body {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;  /* Changed from fixed to relative to avoid overflow */
+    bottom: 20px;
+    padding: 0 20px;
+    width: 100%;
+    margin-top: 50px;  /* Added margin to push it down */
+}
+
+.button {
+    font-size: large;
+    background-color: rgb(69, 228, 69);
+    color: white;
+    font-weight: bold;
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.button-link {
+    color: white;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: rgb(59, 197, 59);
+    color: white;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: white; /* Text color */
+    font-size: x-large;
+    margin-bottom: 200px;
+}
+
+a:hover {
+    color: rgb(226, 225, 225); /* Keep text white on hover */
+}
+
+.container {
+    background-color: rgb(66, 66, 66);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 600px;
+    margin-left: 350px;
+    margin-top: 70px;
+    border-radius: 40px;
+}
+
+.playlist-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.playlist-box {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.playlist-box:hover {
+    border-color: white; /* Change border color on hover */
+}
+
+.playlist-box.selected {
+    border-color: green; /* Green border when selected */
+}
+
+.mood-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 40px 0;
+    padding-bottom: 50px;  /* Ensure the mood boxes don't overlap with buttons */
+}
+
+.mood-box {
+    color: white;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.3s, background-color 0.3s;
+    text-align: center;
+    flex-basis: calc(25% - 20px);  /* Four boxes per row */
+}
+
+/* Apply different gradient colors for each mood */
+.mood-box.calm {
+    background: linear-gradient(to bottom right, #00c6ff, #0072ff); /* Blue for calm */
+}
+
+.mood-box.contentment {
+    background: linear-gradient(to bottom right, #6a11cb, #2575fc); /* Purple for contentment */
+}
+
+.mood-box.energetic {
+    background: linear-gradient(to bottom right, #ff6a00, #ee0979); /* Orange/Red for energetic */
+}
+
+.mood-box.happy {
+    background: linear-gradient(to bottom right, #ffe259, #ffa751); /* Yellow/Orange for happy */
+}
+
+.mood-box.sad {
+    background: linear-gradient(to bottom right, #757f9a, #d7dde8); /* Grey/Blue for sad */
+}
+
+.mood-box.depressed {
+    background: linear-gradient(to bottom right, #485563, #29323c); /* Darker Grey/Blue for depressed */
+}
+
+.mood-box.party {
+    background: linear-gradient(to bottom right, #ff4b2b, #ff416c); /* Red/Pink for party */
+}
+
+.mood-box.pop {
+    background: linear-gradient(to bottom right, #f953c6, #b91d73); /* Pink/Purple for pop */
+}
+
+.mood-box.workout {
+    background: linear-gradient(to bottom right, #1d976c, #93f9b9); /* Green for workout */
+}
+
+.mood-box.dinner {
+    background: linear-gradient(to bottom right, #b24592, #f15f79); /* Pink/Red for dinner */
+}
+
+.mood-box.sleep {
+    background: linear-gradient(to bottom right, #1c92d2, #f2fcfe); /* Blue/White for sleep */
+}
+
+.mood-box.romantic {
+    background: linear-gradient(to bottom right, #ff9a9e, #fad0c4); /* Pink for romantic */
+}
+
+.mood-box:hover {
+    border-color: white;
+}
+
+.mood-box.selected {
+    border-color: green;
+}
+
+button {
+    font-size: x-large;
+    background-color: rgb(69, 228, 69);
+    color: white;
+    font-weight: bolder;
+    height: 50px;
+    border: none;
+    width: 240px;
+    border-radius: 30px;
+    margin-bottom: 0px;
+}
+
+button:hover {
+    background-color: rgb(59, 197, 59);
+    color: white;
+}
