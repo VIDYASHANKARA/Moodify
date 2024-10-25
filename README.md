@@ -1,4 +1,4 @@
-![Screenshot_1](https://github.com/user-attachments/assets/dbd96ca0-0a70-4f82-9e30-7862f726e4e3)# Moodify 🎶
+# Moodify 🎶
 
 Moodify is a personalized music experience that connects seamlessly with Spotify, allowing users to manage playlists based on their moods. With Moodify, you can link your Spotify account, explore your current playlists, and create new, mood-specific ones tailored to how you’re feeling.
 
@@ -39,10 +39,15 @@ CSS - Styling for an engaging user interface.
 This project was developed with the help of ChatGPT by OpenAI.
 
 # Project Screenshots:
+1.
 ![Screenshot_2](https://github.com/user-attachments/assets/a08602e5-29f1-4948-9dbf-26541732a5b9)
+2.
 ![Screenshot_1](https://github.com/user-attachments/assets/6d657dc7-d589-422c-bde0-30b296d8c4e8)
+3.
 ![Screenshot_3](https://github.com/user-attachments/assets/0c0c2135-c728-4005-83b1-2bc563002314)
+4.
 ![Screenshot_5](https://github.com/user-attachments/assets/481e844e-f535-4381-8328-d477a902099c)
+5.
 ![Screenshot_6](https://github.com/user-attachments/assets/9cd95a64-20ca-4090-8f2e-8b449579e141)
 
 
