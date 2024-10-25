@@ -24,7 +24,7 @@ mood_data = {
 def index():
     return '''
     <link rel="stylesheet" type="text/css" href="/static/style.css">
-    <img src='logo.jpg'>
+    
     <div class="container">
         <h1 style='margin-left:150px;margin-top:25px;'>Welcome to Moodify!</h1>
         <p style='margin-left:100px;margin-top:35px;margin-right:100px;font-size:large;'>Moodify is a personalized music experience that integrates with Spotify, giving users the ability to link their accounts and manage their playlists based on mood. Users can select their preferred moods and playlists, and Moodify will create and update mood-based playlists, delivering fresh music selections tailored to their current emotions.</p>
