@@ -3,21 +3,21 @@ import requests
 import os
 
 app = Flask(__name__)
-app.secret_key = os.urandom(24)  # Replace with a secure key in production
+app.secret_key = os.urandom(24)
 
-# Replace with your Spotify Developer credentials
+
 CLIENT_ID = '0c1714d29eb94aad9ab372b577434e8e'
 CLIENT_SECRET = 'eeadce497f15453ca9fc391670194317'
 REDIRECT_URI = 'http://localhost:5000/callback'
 SCOPE = 'user-library-read playlist-read-private playlist-modify-private playlist-modify-public'
 
-# Mood characteristics based on valence and energy
+
 mood_data = {
     'sad': {'valence': (0.0, 0.4), 'energy': (0.0, 0.5)},
     'happy': {'valence': (0.6, 1.0), 'energy': (0.5, 1.0)},
     'calm': {'valence': (0.4, 0.6), 'energy': (0.0, 0.5)},
     'energetic': {'valence': (0.5, 1.0), 'energy': (0.7, 1.0)},
-    # Additional moods can be added similarly
+   
 }
 
 @app.route('/')
